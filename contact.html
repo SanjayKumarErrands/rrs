@@ -11,17 +11,14 @@
 <div class="contact-item"><div class="contact-icon">◆</div><div><b>Service Focus</b><span>Catering, healthcare food service, cloud kitchen solutions, events, and recurring meal programs.</span></div></div>
 </div>
 <div class="form-card reveal delay-1"><span class="eyebrow">Request a Quote</span><h2>Tell us what you need.</h2><p class="lead">A few details will help us understand your food service requirements.</p>
-<form class="form" action="https://formsubmit.co/info@remoterestaurantservices.com" method="POST">
-<input type="hidden" name="_subject" value="New Request a Quote — Remote Restaurant Services">
+<form class="form" id="quote-form">
+<input type="hidden" name="_subject" value="New RRS Quote Request">
 <input type="hidden" name="_template" value="table">
-<input type="hidden" name="_honey" value="" style="display:none">
-<div class="field"><label for="full-name">Full Name</label><input id="full-name" name="Full Name" required placeholder="Your name"></div>
-<div class="field"><label for="company">Company / Organization</label><input id="company" name="Company / Organization" required placeholder="Company or organization"></div>
-<div class="field"><label for="email">Email</label><input id="email" name="Email" required type="email" placeholder="you@company.com"></div>
-<div class="field"><label for="phone">Phone</label><input id="phone" name="Phone" type="tel" placeholder="+1 (000) 000-0000"></div>
-<div class="field"><label for="service-type">Service Type</label><select id="service-type" name="Service Type"><option>Catering & Events</option><option>Healthcare Food Service</option><option>Cloud Kitchen Services</option><option>Corporate Meals</option><option>Recurring Food Service</option><option>Other</option></select></div>
-<div class="field"><label for="people">Estimated Number of People</label><input id="people" name="Estimated Number of People" type="number" min="1" placeholder="e.g. 100"></div>
-<div class="field full"><label for="needs">Tell us about your food service needs</label><textarea id="needs" name="Food Service Needs" placeholder="Event date or schedule, number of people, location, dietary considerations, and anything else we should know..."></textarea></div>
+<input type="hidden" name="_url" value="https://remoterestaurantservices.com/contact.html">
+<div class="field"><label>Full Name</label><input name="full_name" required placeholder="Your name"></div><div class="field"><label>Company / Organization</label><input name="company" required placeholder="Company or organization"></div><div class="field"><label>Email</label><input name="email" required type="email" placeholder="you@company.com"></div><div class="field"><label>Phone</label><input name="phone" placeholder="+1 (000) 000-0000"></div>
+<div class="field"><label>Service Type</label><select name="service_type"><option>Catering & Events</option><option>Healthcare Food Service</option><option>Cloud Kitchen Services</option><option>Corporate Meals</option><option>Recurring Food Service</option><option>Other</option></select></div>
+<div class="field"><label>Estimated Number of People</label><input name="estimated_people" type="number" min="1" placeholder="e.g. 100"></div>
+<div class="field full"><label>Tell us about your food service needs</label><textarea name="message" placeholder="Event date or schedule, number of people, location, dietary considerations, and anything else we should know..."></textarea></div>
 <div class="field full"><button class="btn btn-primary" type="submit">Request a Quote →</button></div></form></div>
 </div></section>
 <div id="footer"></div><script src="assets/js/template.js"></script><script src="assets/js/app.js"></script><script>document.getElementById('header').innerHTML=header('contact');document.getElementById('footer').innerHTML=footer();</script>
