@@ -1,23 +1,21 @@
-# Remote Restaurant Support — Modern Call Center Website Template
+# Remote Restaurant Services
 
-A responsive multi-page HTML/CSS/JavaScript template designed for a professional restaurant-industry call center.
+Static multi-page website adapted from the supplied template for Remote Restaurant Services.
 
 ## Pages
-- index.html — Home
-- services.html — Services
-- faqs.html — FAQs
-- contact.html — Contact Us / Quote request
+- `index.html` — Home
+- `services.html` — Services
+- `faqs.html` — FAQs
+- `contact.html` — Contact / quote request
 
-## Design
-- Modern navy / purple / orange visual system
-- Responsive navigation with mobile menu
-- Scroll reveal animations
-- Animated statistics
-- FAQ accordion
-- Hover interactions
-- Quote/contact form demo
-- Restaurant-specific call center positioning
+## Positioning
+The site presents Remote Restaurant Services as a food service company focused on:
+- Catering & events
+- Healthcare food service
+- Cloud kitchen solutions
+- Corporate and recurring meal programs
 
-## Notes
-The form is front-end demo behavior only. Connect it to your preferred backend/email service before production.
-Photography uses remote Unsplash URLs and can be replaced with licensed company photography.
+The existing layout, typography, gradients, buttons, spacing and navigation structure have been retained. The restaurant call-center content and imagery have been replaced with the agreed food-service positioning.
+
+## Contact details
+The contact page currently uses `info@remoterestaurantservices.com` / `sales@remoterestaurantservices.com` and the phone number already present in the supplied template. Confirm these details before launch if needed.
