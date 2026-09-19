@@ -13,7 +13,7 @@ if(quoteForm){
     btn.textContent='Sending…';
     btn.disabled=true;
     try{
-      const response=await fetch('https://formsubmit.co/ajax/developesanjay71@gmail.com',{
+      const response=await fetch('https://formsubmit.co/ajax/developersanjay71@gmail.com',{
         method:'POST',
         headers:{'Content-Type':'application/json','Accept':'application/json'},
         body:JSON.stringify(Object.fromEntries(new FormData(quoteForm)))
